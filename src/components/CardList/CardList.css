@@ -1,0 +1,43 @@
+.grid {
+    display: grid;
+    column-gap: 0;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 16px;
+}
+
+.box {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.infoBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBlock h4 {
+    padding: 4px;
+    text-align: center;
+}
+
+.icons {
+    font-size: 32px;
+    color: #0A79DF;
+    margin: 4px;
+}
+
+.circleIcon {
+    color: #019031;
+}
+
+.crossIcon {
+    color: #E8290B;
+}
+
+.emptyIcon {
+    font-size: 24px;
+}
